@@ -1,27 +1,31 @@
 .loginsignup{
     width: 100%;
-    height: 120vh;
     background: #fce3fe;
     padding-top: 100px;
+    height: 120vh;
+    padding-bottom: 50px;
 }
 .loginsignup-container{
     width: 580px;
-    height: 580px;
+    height: 700px;
     background: white;
     margin: auto;
     padding: 40px 60px;
 }
-.loginsignup-container h1{
+.login-container h1{
     margin: 20px 0px;
 }
-.loginsignup-fields{
+.signup-container h1{
+    margin: 20px 0px;
+}
+.login-fields{
     display: flex;
     flex-direction: column;
     margin-top: 30px;
     gap: 30px;
 }
-.loginsignup-fields input{
-    height: 45px;
+.login-fields input{
+    height: 25px;
     width: 100%;
     padding: 10px;
     border: 1px solid #c9c9c9;
@@ -29,7 +33,34 @@
     font-size: 18px;
     outline: none;
 }
-.loginsignup-container button{
+.signup-fields{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+    
+}
+.signup-fields input{
+    height: 25px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    color: #5c5c5c;
+    font-size: 18px;
+    outline: none;
+}
+.signup{
+    width: 600px;
+    height: 45px;
+    color: white;
+    margin-top: 30px;
+    background: #ff4141;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+}
+.btn-login{
     width: 600px;
     height: 45px;
     color: white;
@@ -58,4 +89,29 @@
     color: #5c5c5c;
     font-size: 18px;
     font-weight: 500;
+}
+.tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0px;
+    padding-left: 30px;
+    margin-left: 0px;
+    gap: 20px;
+}
+.tabs button{
+    width: 80%;
+    height: 50px;
+    background: #f3f3f3;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-left: 5px;
+    border: none;
+}
+.tabs button:focus{
+    background: rgb(192, 179, 179);
+    color: white;
 }
